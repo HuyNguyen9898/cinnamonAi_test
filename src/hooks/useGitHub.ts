@@ -32,6 +32,7 @@ const useGitHub = () => {
       const userList = await utils_getUser(name)
       setUsers(userList)
     }
+    
     setLoading(false)
   }
 

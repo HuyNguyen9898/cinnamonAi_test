@@ -33,7 +33,6 @@ const useTable = <T extends IRow>({ datas }: { datas: T[] }) => {
 
   const handleAllRowSelected = (isChecked: boolean) => {
     dataList.current.forEach(currentData => currentData.isSelected = isChecked)
-
     setAllSelected(isChecked)
     setRowsSelected(isChecked ? dataList.current : [])
   }

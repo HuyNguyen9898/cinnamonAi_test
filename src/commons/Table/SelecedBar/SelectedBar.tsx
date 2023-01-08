@@ -1,4 +1,11 @@
-import { ActionContainer, ActionSeparator, BarContainer, BarWrapper, CloseIcon, SelectedWrapper } from "./SelectedBar.styles"
+import { 
+  ActionContainer, 
+  ActionSeparator, 
+  BarContainer, 
+  BarWrapper, 
+  CloseIcon, 
+  SelectedWrapper, 
+} from "./SelectedBar.styles"
 
 interface ISelectedBar {
   selectedRows: number
